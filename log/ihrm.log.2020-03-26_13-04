@@ -1,0 +1,23 @@
+2020-03-26 13:02:41,828 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-26 13:02:42,085 INFO [root] [test_emp_func.py(test01_login:41)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '69e04780-b6ec-449e-b188-baa5268191a7'}
+2020-03-26 13:02:42,085 INFO [root] [test_emp_func.py(test01_login:45)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json'}
+2020-03-26 13:03:40,934 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-26 13:03:41,153 INFO [root] [test_emp_func.py(test01_test_emp_operation:38)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9112b043-9cf2-4b6e-936f-4b945332aedd'}
+2020-03-26 13:03:41,155 INFO [root] [test_emp_func.py(test01_test_emp_operation:42)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9112b043-9cf2-4b6e-936f-4b945332aedd'}
+2020-03-26 13:03:41,244 INFO [root] [test_emp_func.py(test02_add_emp:53)] - 添加员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243040912216772608'}}
+2020-03-26 13:03:41,244 INFO [root] [test_emp_func.py(test02_add_emp:58)] - 获取的员工ID为:1243040912216772608
+2020-03-26 13:03:41,331 INFO [root] [test_emp_func.py(test03_query_emp:68)] - 查询员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243040912216772608', 'mobile': '14790123809', 'username': '葫芦娃aassa', 'password': '4558335727750c302bafb6cfac515404', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-26 13:03:41,431 INFO [root] [test_emp_func.py(test04_modify_emp:78)] - 修改员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243040912216772608'}}
+2020-03-26 13:03:41,610 INFO [root] [test_emp_func.py(test04_modify_emp:98)] - 打印SQL语句:select username from bs_user where id=1243040912216772608
+2020-03-26 13:03:41,653 INFO [root] [test_emp_func.py(test04_modify_emp:102)] - 执行SQL语句查询的结果为:('tom',)
+2020-03-26 13:03:41,758 INFO [root] [test_emp_func.py(test05_delete_emp:119)] - 修改员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-26 13:04:26,928 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-26 13:04:27,145 INFO [root] [test_emp_func.py(test01_test_emp_operation:38)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '28ae5e22-678d-4c4a-bedd-f0c3a09fc3fd'}
+2020-03-26 13:04:27,145 INFO [root] [test_emp_func.py(test01_test_emp_operation:42)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 28ae5e22-678d-4c4a-bedd-f0c3a09fc3fd'}
+2020-03-26 13:04:27,237 INFO [root] [test_emp_func.py(test02_add_emp:53)] - 添加员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243041105108619264'}}
+2020-03-26 13:04:27,238 INFO [root] [test_emp_func.py(test02_add_emp:58)] - 获取的员工ID为:1243041105108619264
+2020-03-26 13:04:27,325 INFO [root] [test_emp_func.py(test03_query_emp:68)] - 查询员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243041105108619264', 'mobile': '14790123809', 'username': '葫芦娃aassa', 'password': '4558335727750c302bafb6cfac515404', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-26 13:04:27,422 INFO [root] [test_emp_func.py(test04_modify_emp:78)] - 修改员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243041105108619264'}}
+2020-03-26 13:04:27,641 INFO [root] [test_emp_func.py(test04_modify_emp:98)] - 打印SQL语句:select username from bs_user where id=1243041105108619264
+2020-03-26 13:04:27,693 INFO [root] [test_emp_func.py(test04_modify_emp:102)] - 执行SQL语句查询的结果为:('金刚狼',)
+2020-03-26 13:04:27,777 INFO [root] [test_emp_func.py(test05_delete_emp:119)] - 修改员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
