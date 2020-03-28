@@ -14,8 +14,8 @@ suite.addTest(unittest.makeSuite(TestLogin))
 suite.addTest(unittest.makeSuite(TestEmp))
 
 # 定义测试报告名称
-ihrm_report_path = app.base_dir + '/report/ihrm{}.html'.format(time.strftime("%Y%m%d %H%M%S"))
-
+# ihrm_report_path = app.base_dir + '/report/ihrm{}.html'.format(time.strftime("%Y%m%d %H%M%S"))
+ihrm_report_path = app.base_dir + '/report/ihrm.html'
 with open(ihrm_report_path,'wb') as f:
     # 实例化htmltestrunner
     runner = HTMLTestRunner(f,verbosity=2,title="管理系统ihrm人力资源",description="这是使用HTMLTestRunner_PY3生成的报告")
